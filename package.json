@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-auto",
+  "version": "1.0.0",
+  "description": "Cordova plugin for Android Auto Notification",
+  "cordova": {
+    "id": "cordova-plugin-auto",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "auto",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "MIT"
+}
