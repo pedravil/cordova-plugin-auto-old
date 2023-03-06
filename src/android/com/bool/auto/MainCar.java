@@ -49,7 +49,7 @@ public class MainCar extends CordovaPlugin {
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         prefs = PreferenceManager.getDefaultSharedPreferences(cordova.getActivity());
         prefs.edit().putBoolean("inBackground", false).apply();
-        FirebasePluginMessageReceiverManager.register(TncFirebase.class.getCanonicalName(), cordova.getActivity());
+        FirebasePluginMessageReceiverManager.register(BoolFirebase.class.getCanonicalName(), cordova.getActivity());
         super.initialize(cordova, webView);
     }
 
