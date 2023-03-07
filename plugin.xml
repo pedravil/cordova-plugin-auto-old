@@ -27,7 +27,7 @@
         <source-file src="src/android/com/bool/auto/MessageReplyReceiver.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/MessageReadReceiver.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/MySQLite.java" target-dir="src/com/bool/auto"/>
-        <source-file src="src/android/com/bool/auto/boolFirebase.java" target-dir="src/com/bool/auto"/>
+        <source-file src="src/android/com/bool/auto/BoolFirebase.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/NotifCar.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/Api.java" target-dir="src/com/bool/auto"/>
 
