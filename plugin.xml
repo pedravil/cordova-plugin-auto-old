@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-auto" version="1.0" xmlns:android="http://schemas.android.com/apk/res/android" >
     <name>Android Auto</name>
     <description>Auto</description>
-    <keywords>cordova,plugin,auto</keywords>
+    <keywords>cordova,plugin,auto,android</keywords>
 
     <js-module src="www/plugin.js" name="Auto">
         <clobbers target="cordova.plugins.Auto" />
