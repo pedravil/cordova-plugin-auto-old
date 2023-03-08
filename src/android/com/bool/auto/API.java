@@ -33,7 +33,7 @@ public class Api {
     }
 
     public void sendReply(String message, int conversation_id, final CallBackRequest success, final CallBackRequest error) {
-        Log.v("TNC", "sendReply");
+        Log.v("Bool", "sendReply");
         try {
             JSONObject jsonRequest = new JSONObject();
             jsonRequest.put("text", message);
@@ -46,7 +46,7 @@ public class Api {
     }
 
     public void sendRead(int conversation_id, final CallBackRequest success, final CallBackRequest error) {
-        Log.v("TNC", "sendRead");
+        Log.v("Bool", "sendRead");
         try {
             JSONObject jsonRequest = new JSONObject();
             jsonRequest.put("id", conversation_id);
