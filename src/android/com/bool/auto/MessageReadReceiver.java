@@ -30,7 +30,7 @@ public class MessageReadReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        Log.v("TNC", "READ onReceive");
+        Log.v("Bool", "READ onReceive");
         final int conversation_id = intent.getIntExtra(NotifCar.CONVERSATION_ID, -1);
         new Api(context).sendRead(
             conversation_id,
