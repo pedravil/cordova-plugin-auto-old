@@ -29,6 +29,7 @@
         <source-file src="src/android/com/bool/auto/MySQLite.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/BoolFirebase.java" target-dir="src/com/bool/auto"/>
         <source-file src="src/android/com/bool/auto/NotifCar.java" target-dir="src/com/bool/auto"/>
+        <source-file src="src/android/com/bool/auto/API.java" target-dir="src/com/bool/auto"/>
         
 
     </platform>
