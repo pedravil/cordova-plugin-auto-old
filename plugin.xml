@@ -4,7 +4,7 @@
     <description>Auto</description>
     <keywords>cordova,plugin,auto,android</keywords>
 
-    <js-module src="www/plugin.js" name="Auto">
+    <js-module src="www/autoMessagingService.js" name="Auto">
         <clobbers target="cordova.plugins.Auto" />
     </js-module>
 
