@@ -23,9 +23,9 @@ class MySQLite extends SQLiteOpenHelper {
 
         DATABASE_PATH = filesDir.substring(0, filesDir.lastIndexOf("/")) + "/databases/"; // /data/data/com.package.nom/databases/
         if (!checkdatabase()) {
-            Log.v("TNC", "La base n'existe pas ");
+            Log.v("BOOL", "La base n'existe pas ");
         } else {
-            Log.v("TNC", "La base existe ");
+            Log.v("BOOL", "La base existe ");
         }
     }
 
