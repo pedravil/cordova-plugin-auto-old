@@ -12,8 +12,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 
 import com.google.firebase.messaging.RemoteMessage;
+import com.google.firebase.FirebasePluginMessageReceiver;
 
-import org.apache.cordova.firebase.FirebasePluginMessageReceiver;
 import org.json.JSONException;
 import org.json.JSONObject;
 
